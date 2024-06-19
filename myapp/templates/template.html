@@ -1,0 +1,21 @@
+{% load static %}
+<html></html> 
+<head>
+    
+    <link rel="stylesheet" href="{% static 'myfirst.css' %}">
+
+</head>
+<body>
+{% include "menu.html" with me="Product" sponsor="Itvedant" %}
+{% for a in x%}
+{{a}}
+{%endfor%}
+
+{% if x == y %}
+
+  <h1 style='background-color:lightblue'>YES</h1>
+{% else %}
+  <h1>NO</h1>
+{% endif %}
+</body>
+</html>

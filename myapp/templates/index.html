@@ -1,0 +1,24 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Index</title>  
+</head>  
+<body>  
+    simple message
+<h2>Welcome to Django!!!</h2> 
+
+single variable
+<h3>My Name is: {{ student }}</h3>  
+
+dictionary 
+<h1>Members</h1>
+  
+<ul>
+  {% for x in mymembers %}
+    <li>{{ x.firstname }} {{ x.lastname }}</li>
+  {% endfor %}
+</ul>
+
+</body>  
+</html>  
